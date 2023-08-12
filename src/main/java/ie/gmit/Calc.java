@@ -16,7 +16,7 @@ public class Calc
         System.out.println("Please your Second number: ");
         int secondName= inputs.nextInt();
 
-        int total = firstName + secondName;
+        int total = firstName - secondName;
         System.out.println("The total is: " + total);
 
     }
