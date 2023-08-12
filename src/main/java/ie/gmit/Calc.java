@@ -18,8 +18,6 @@ public class Calc
 
         int total = firstName * secondName;
         System.out.println("The total is: " + total);
-
-
     }
 
 
