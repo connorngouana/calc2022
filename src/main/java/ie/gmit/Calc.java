@@ -4,10 +4,10 @@ public class Calc
 {
     public static void main(String[] args)
     {
-        multiply();
+        add();
     }
 
-    private static void multiply()
+    private static void add()
     {
         System.out.println("Please your first number: ");
         Scanner inputs = new Scanner(System.in);
@@ -16,8 +16,9 @@ public class Calc
         System.out.println("Please your Second number: ");
         int secondName= inputs.nextInt();
 
-        int total = firstName * secondName;
+        int total = firstName + secondName;
         System.out.println("The total is: " + total);
+
     }
 
 
