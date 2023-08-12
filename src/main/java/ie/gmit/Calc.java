@@ -4,10 +4,10 @@ public class Calc
 {
     public static void main(String[] args)
     {
-        add();
+        multiply();
     }
 
-    private static void add()
+    private static void multiply()
     {
         System.out.println("Please your first number: ");
         Scanner inputs = new Scanner(System.in);
