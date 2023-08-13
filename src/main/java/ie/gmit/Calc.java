@@ -4,19 +4,22 @@ public class Calc
 {
     public static void main(String[] args)
     {
-        add();
+        multiply();
     }
 
-    private static void add()
+    private static void multiply()
     {
         System.out.println("Please your first number: ");
         Scanner inputs = new Scanner(System.in);
-        int firstName= inputs.nextInt();
+        int firstNumber = inputs.nextInt();
 
         System.out.println("Please your Second number: ");
-        int secondName= inputs.nextInt();
+        int secondNumber= inputs.nextInt();
 
-        int total = firstName + secondName;
+        System.out.println("Please your Second number: ");
+        int thirdNumber= inputs.nextInt();
+
+        int total = firstNumber * secondNumber * thirdNumber;
         System.out.println("The total is: " + total);
 
     }
